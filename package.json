@@ -1,10 +1,11 @@
 {
-"name": "yjs-server",
-"private": true,
-"scripts": {
-"start": "y-websocket"
-},
-"dependencies": {
-"y-websocket": "^1.5.0"
-}
+  "name": "yjs-server",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "y-websocket": "^1.5.0",
+    "ws": "^8.13.0"
+  }
 }
